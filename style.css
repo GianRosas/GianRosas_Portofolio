@@ -1,6 +1,3 @@
-/* COSC 117 - Provided Stylesheet for Lab 4 */
-
-/* General Body and Font Styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
@@ -10,7 +7,6 @@ body {
 }
 
 /* Page Container - for the main content box */
-/* This should include everything except for the navigation bar */
 #page-container {
   max-width: 900px;
   margin: auto;
@@ -22,7 +18,7 @@ body {
 
 /* Navigation Bar at the top of the page --- */
 .nav-bar {
-  background-color: #2c3e50; /* Dark blue-grey */
+  background-color: #2c3e50;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -37,11 +33,11 @@ body {
   padding: 8px 15px;
   border-radius: 5px;
   font-size: 1em;
-  margin: 0 10px; /* Adds space between links */
+  margin: 0 10px;
 }
 
 .nav-link:hover {
-  background-color: #2980b9; /* Darker blue on hover */
+  background-color: #2980b9;
 }
 
 /* Header Styles */
@@ -85,11 +81,11 @@ body {
 .profile-pic {
   width: 200px;
   height: 200px;
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Prevents image distortion */
+  border-radius: 50%; 
+  object-fit: cover; 
   object-position: top center;
   border: 4px solid #3498db;
-  float: right; /* Aligns the image to the right */
+  float: right;
   margin-left: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
